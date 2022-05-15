@@ -104,14 +104,17 @@
 		ColmenaFinca: {
 			url: 'https://cartocollective.blob.core.windows.net/vieques/agricultura/colmena/{variant}/{z}/{x}/{y}.png',
 			options: {
-				maxZoom: 18,
+				maxZoom: 24,
 				bounds: [[18.114326,-65.44755], [18.115742, -65.444740]],
 				attribution: 'Map imagery: UNC Geography and the Carolina Cartography Collective'
 			},
 			variants: {
 				2019: '2019',
 				2021: '2021',
-				2022: '2022',
+				2022_1: '2022/marzo',
+				2022_2: '2022/mayo_flight1',
+				2022_3: '2022/mayo_flight2',
+				2022_4: '2022/mayo_flight3',
 			}
 		},
 		OpenStreetMap: {
